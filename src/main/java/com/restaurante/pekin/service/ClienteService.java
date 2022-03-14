@@ -1,11 +1,9 @@
-	package com.restaurante.pekin.service;
+package com.restaurante.pekin.service;
 
 import java.util.List;
 
 import com.restaurante.pekin.exceptions.cliente.ClienteException;
 import com.restaurante.pekin.model.Cliente;
-
-
 
 public interface ClienteService {
 
@@ -19,4 +17,6 @@ public interface ClienteService {
 			Long id_cliente) throws ClienteException;
 
 	public List<Cliente> clienteNoAsociadosDetalleService() throws ClienteException;
+
+	public List<Cliente> listarClientes() throws ClienteException;
 }
