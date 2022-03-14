@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.cfe.hernan.sistema.model.Role;
+import com.restaurante.pekin.model.Role;
 
 @Repository
 public interface RoleRepository extends JpaRepository<Role, String> {
