@@ -93,7 +93,7 @@ public class TokenProvider implements InitializingBean {
 			return true;
 		} catch (io.jsonwebtoken.security.SecurityException | MalformedJwtException e) {
 		} catch (ExpiredJwtException e) {
-			paraRetornarVista.altaPublicacion();
+			paraRetornarVista.paginaPrincipal();
 		} catch (UnsupportedJwtException e) {
 		} catch (IllegalArgumentException e) {
 		}
